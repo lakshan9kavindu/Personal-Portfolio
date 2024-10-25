@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    border: 3px solid black;
+}
+
+table, tr, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    padding: 10px;
+    border: 3px;
+    border-style: solid;
+    width: 100%;
+}
+
+.review-box{
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+
+.review-box .author {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
